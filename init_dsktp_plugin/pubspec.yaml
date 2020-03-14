@@ -1,0 +1,28 @@
+name: init_dsktp_plugin
+description: Beginner's guide for creating sample desktop plugin.
+version: 0.0.1
+author: Aseem Wangoo
+homepage: https://github.com/AseemWangoo/plugins
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      # android:
+      #   package: com.flatteredwithflutter.init_dsktp_plugin
+      #   pluginClass: InitDsktpPlugin
+      # ios:
+      #   pluginClass: InitDsktpPlugin
+      macos:
+        pluginClass: InitDsktpPlugin
