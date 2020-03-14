@@ -26,3 +26,5 @@ flutter:
       #   pluginClass: InitDsktpPlugin
       macos:
         pluginClass: InitDsktpPlugin
+      windows:
+        pluginClass: InitDsktpPlugin
