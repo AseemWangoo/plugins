@@ -1,6 +1,6 @@
 # init_dsktp_plugin
 
-A new flutter plugin project.
+How to create a Flutter Desktop Plugin
 
 ## Installation
 
@@ -13,7 +13,6 @@ dependencies:
     git:
       url: https://github.com/AseemWangoo/plugins.git
       path: ./init_dsktp_plugin
-      ref: develop
 ...
 ```
 
