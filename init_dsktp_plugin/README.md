@@ -23,3 +23,14 @@ import 'package:init_dsktp_plugin/init_dsktp_plugin.dart';
 
 InitDsktpPlugin.platformVersion
 ```
+
+### How to work on Windows
+
+- Change `sample` in all the filenames to your plugin's name.
+- Change the `ProjectName` in `plugin.vcxproj` to your plugin's name.
+- Change the `ProjectGuid` in `plugin.vcxproj` to a randomly-generated v4
+  UUID. You can use any UUID generator,
+    - (Gen. online here) https://www.uuidgenerator.net/
+- Change the `FlutterPluginName` in `PluginInfo.props` to your plugin's name.
+- Search for comments containing `***` in the `.h` and `.cpp` file, and update
+  the code as described in the comment.
