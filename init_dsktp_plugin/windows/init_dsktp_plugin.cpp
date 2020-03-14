@@ -1,3 +1,4 @@
+// *** Rename this class
 #include "init_dsktp_plugin.h"
 
 // This must be included before VersionHelpers.h.
