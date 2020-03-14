@@ -24,7 +24,7 @@ import 'package:init_dsktp_plugin/init_dsktp_plugin.dart';
 InitDsktpPlugin.platformVersion
 ```
 
-### How to work on Windows
+### Generic Steps for Windows (For using this plugin, you don't need this)
 
 - Change `sample` in all the filenames to your plugin's name.
 - Change the `ProjectName` in `plugin.vcxproj` to your plugin's name.
