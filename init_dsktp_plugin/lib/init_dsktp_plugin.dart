@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
+export 'custom_render_object.dart';
+
 class InitDsktpPlugin {
   static const MethodChannel _channel =
       const MethodChannel('init_dsktp_plugin');
