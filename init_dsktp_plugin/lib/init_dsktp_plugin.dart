@@ -1,15 +1,2 @@
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-
-export 'custom_render_object.dart';
-
-class InitDsktpPlugin {
-  static const MethodChannel _channel =
-      const MethodChannel('init_dsktp_plugin');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'package:init_dsktp_plugin/entry.dart';
+export 'package:init_dsktp_plugin/custom_render_object.dart';
