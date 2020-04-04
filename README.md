@@ -1,6 +1,12 @@
 # plugins
 Experiments with plugins
 
+<p>
+  <a href="https://www.youtube.com/user/aseemwangoo/videos" target="_blank">
+  <img src="https://github.com/AseemWangoo/experiment_with_providers/blob/master/brand.png">
+  </a>  
+</p>
+
 ## Author
 
 [Aseem Wangoo](https://flatteredwithflutter.com)
